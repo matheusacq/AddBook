@@ -1,9 +1,31 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Two
+      Pesquisar
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-button (click)="openPreco()" expand="block" icon-start>
+            <ion-icon name="cash"></ion-icon>
+            Preço
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button (click)="openImagem()" expand="block" icon-start>
+            <ion-icon name="image"></ion-icon>
+            Imagem
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>
